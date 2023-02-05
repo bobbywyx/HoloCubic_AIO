@@ -57,12 +57,12 @@ static void read_config(AN_Config *cfg)
         cfg->anniversary_cnt = 2;
         cfg->event_name[0] = "生日还有";
         cfg->target_date[0].tm_year = 0; // 设置为零则每年重复
-        cfg->target_date[0].tm_mon = 1;
-        cfg->target_date[0].tm_mday = 1;
-        cfg->event_name[1] = "毕业还有";
-        cfg->target_date[1].tm_year = 2025;
-        cfg->target_date[1].tm_mon = 7;
-        cfg->target_date[1].tm_mday = 4;
+        cfg->target_date[0].tm_mon = 2;
+        cfg->target_date[0].tm_mday = 6;
+        cfg->event_name[1] = "纪念日";
+        cfg->target_date[1].tm_year = 2022;
+        cfg->target_date[1].tm_mon = 10;
+        cfg->target_date[1].tm_mday = 5;
         write_config(cfg);
         Serial.printf("Write config successful\n");
     }

@@ -1,0 +1,3 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/AIO_Firmware_PIO/lib/ArduinoJson-6.x"
+}
